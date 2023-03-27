@@ -1,13 +1,14 @@
+import React from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { NavBar } from "./NavBar";
 
-
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-    <h1>YO </h1>
-      </header>
-    </div>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path="/" exact />
+      </Routes>
+    </Router>
   );
-}
-
-export default App;
+};
