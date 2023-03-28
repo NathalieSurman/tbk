@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { TiTimes } from "react-icons/ti";
 import { Button } from "./Button";
-import "./NavBar.css"
+import "./NavBar.css";
 
 export const NavBar = () => {
   const [click, setClick] = useState(false);
@@ -12,7 +10,6 @@ export const NavBar = () => {
 
   const [button, setButton] = useState(true);
 
-
   //---HERE is the function that is going to remove then displays the button/Ham-burger-Menu on mobile or depending on screen size --//
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -20,14 +17,14 @@ export const NavBar = () => {
     } else {
       setButton(true);
     }
-  }
+  };
 
   useEffect(() => {
     showButton();
   }, []);
 
   //--When we resize the screen we want to get the show button function --//
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
   return (
     <>
       <nav className="navbar">
@@ -36,7 +33,7 @@ export const NavBar = () => {
             Kayak
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? <TiTimes /> : <GiHamburgerMenu />} />
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
@@ -73,7 +70,7 @@ export const NavBar = () => {
             </li>
           </ul>
           {/* If its true */}
-          {button && <Button buttonStyle='btn--outline'>BOOK NOW</Button>}
+          {button && <Button buttonStyle="btn--outline">BOOK NOW</Button>}
         </div>
       </nav>
     </>
