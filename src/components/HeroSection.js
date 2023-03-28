@@ -1,7 +1,6 @@
 import React from "react";
-import '../App.css'
 import { Button } from "./Button";
-import './HeroSection.css'
+import "./HeroSection.css";
 
 export const HeroSection = () => {
   return (
@@ -22,7 +21,7 @@ export const HeroSection = () => {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          Watch Trailer <i className=" far fa-play-circle"/>
+          Watch Trailer <i className=" far fa-play-circle" />
         </Button>
       </div>
     </div>
