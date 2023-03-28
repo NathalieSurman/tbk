@@ -1,7 +1,8 @@
 import React from 'react'
+import '../../index.css'
 
 export const Product = () => {
   return (
-    <div>Product</div>
+    <h1 className='products'>PRODUCTS</h1>
   )
 }
