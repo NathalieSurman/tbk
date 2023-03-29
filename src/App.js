@@ -7,6 +7,7 @@ import { Services } from "./components/pages/Services";
 import { Product } from "./components/pages/Product";
 import { SignUp } from "./components/pages/SignUp";
 import { Footer } from "./components/Footer";
+import { AboutUs } from "./components/pages/AboutUs";
 
 export const App = () => {
   return (
@@ -19,6 +20,8 @@ export const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Product />} />
           <Route path="/sign-up" element={<SignUp />} />
+          <Route path="/about-us" element={<AboutUs />} />
+
         </Routes>
         <Footer />
       </Router>
