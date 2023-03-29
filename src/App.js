@@ -3,9 +3,9 @@ import './App.css';
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
 import { Home } from "./components/pages/Home";
-import { Services } from "./components/pages/Services";
-import { Product } from "./components/pages/Product";
-import { SignUp } from "./components/pages/SignUp";
+import { ContactUs } from "./components/pages/ContactUs";
+import { Weather } from "./components/pages/Weather";
+import { Booknow } from "./components/pages/Booknow";
 import { Footer } from "./components/Footer";
 import { AboutUs } from "./components/pages/AboutUs";
 
@@ -14,12 +14,11 @@ export const App = () => {
     <>
       <Router>
         <NavBar />
-        
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/products" element={<Product />} />
-          <Route path="/sign-up" element={<SignUp />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="/weather" element={<Weather />} />
+          <Route path="/booknow" element={<Booknow />} />
           <Route path="/about-us" element={<AboutUs />} />
 
         </Routes>
