@@ -30,7 +30,8 @@ export const NavBar = () => {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
+            {/* <img src="/images/tbk-logo.png"/> */}
+            TBK
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -42,25 +43,7 @@ export const NavBar = () => {
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Services
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Products
-              </Link>
-            </li>
-
+            
             <li className='nav-item'>
               <Link
                 to='/about-us'
@@ -70,17 +53,37 @@ export const NavBar = () => {
                 About Us
               </Link>
             </li>
+
+            <li className='nav-item'>
+              <Link
+                to='/contactUs'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact Us
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/weather'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Weather
+              </Link>
+            </li>
+
             <li>
               <Link
-                to='/sign-up'
+                to='/booknow'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Book Now
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>BOOK NOW</Button>}
         </div>
       </nav>
     </>
