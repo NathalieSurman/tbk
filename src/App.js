@@ -8,6 +8,7 @@ import { Weather } from "./components/pages/Weather";
 import { Booknow } from "./components/pages/Booknow";
 import { Footer } from "./components/Footer";
 import { AboutUs } from "./components/pages/AboutUs";
+import { Faq } from "./components/pages/Faq";
 
 export const App = () => {
   return (
@@ -16,11 +17,11 @@ export const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contactUs" element={<ContactUs />} />
-          <Route path="/weather" element={<Weather />} />
-          <Route path="/booknow" element={<Booknow />} />
           <Route path="/about-us" element={<AboutUs />} />
-
+          <Route path="/weather" element={<Weather />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="/booknow" element={<Booknow />} />
         </Routes>
         <Footer />
       </Router>

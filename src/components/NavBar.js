@@ -53,6 +53,24 @@ export const NavBar = () => {
                 About Us
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to='/weather'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Weather
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/faq'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                FAQ
+              </Link>
+            </li>
 
             <li className='nav-item'>
               <Link
@@ -63,15 +81,7 @@ export const NavBar = () => {
                 Contact Us
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/weather'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Weather
-              </Link>
-            </li>
+
 
             <li>
               <Link
