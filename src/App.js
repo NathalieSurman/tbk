@@ -10,11 +10,13 @@ import { Footer } from "./components/Footer";
 import { AboutUs } from "./components/pages/AboutUs";
 import { Faq } from "./components/pages/Faq";
 
+
 export const App = () => {
   return (
     <>
       <Router>
         <NavBar />
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
