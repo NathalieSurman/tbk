@@ -19,7 +19,7 @@
   }
   
   .contactUs {
-    background-image: url('/public/images/img-2.jpg');
+    background-image: url('/public/images/bg-img-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
     font-size: 100px;
   }
   .faq {
-    background-image: url('/public/images/bg-img.jpg');
+    background-image: url('/public/images/bg-img-3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
