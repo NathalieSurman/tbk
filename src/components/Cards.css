@@ -30,6 +30,8 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    height: 700px;
+    width: 350px;
   }
   
   .cards__item__link {
@@ -66,7 +68,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    /* background-color: #1f98f4; */
     box-sizing: border-box;
   }
   
@@ -90,7 +92,7 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 30px 30px ;
   }
   
   .cards__item__text {

@@ -6,7 +6,7 @@ export const CardItem = (props) => {
     <>
       <li className='cards__item'>
         <Link className='cards__item__link' to={props.path}>
-          <figure className='cards__item__pic-wrap' data-category={props.label}>
+          <figure className='cards__item__pic-wrap' >
             <img
               className='cards__item__img'
               alt='Travel Image'
@@ -15,6 +15,8 @@ export const CardItem = (props) => {
           </figure>
           <div className='cards__item__info'>
             <h5 className='cards__item__text'>{props.text}</h5>
+            <h4>{props.subTitle}</h4>
+            <p>{props.cards_item_info}</p>
           </div>
         </Link>
       </li>
