@@ -9,6 +9,8 @@ import { Booknow } from "./components/pages/Booknow";
 import { Footer } from "./components/Footer";
 import { AboutUs } from "./components/pages/AboutUs";
 import { Faq } from "./components/pages/Faq";
+import { ViewKayaks } from "./components/pages/ViewKayaks"
+
 
 
 export const App = () => {
@@ -24,6 +26,7 @@ export const App = () => {
           <Route path="/faq" element={<Faq />} />
           <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/booknow" element={<Booknow />} />
+          <Route path="/viewKayaks" element={<ViewKayaks/>}/>
         </Routes>
         <Footer />
       </Router>
