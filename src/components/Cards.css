@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: rgb(250, 250, 250);
 }
 
 h1 {
@@ -95,7 +95,6 @@ h1 {
 .cards__item__info {
   padding: 20px 30px 30px;
   line-height: 24px;
-
 }
 
 .cards__item__text {
@@ -105,6 +104,32 @@ h1 {
   width: 330px;
 }
 
+ul {
+  padding-bottom: 10px;
+}
+h5 {
+  padding-bottom: 10px;
+}
+.lessons {
+  padding-bottom: 10px;
+}
+p {
+  padding-top: 10px;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+.refund {
+  text-align: center;
+  width: 1000px;
+  color: gray;
+}
+.refundP {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
