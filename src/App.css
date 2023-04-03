@@ -7,7 +7,7 @@
   }
   
   .home,
-  .contactUs,
+  
   .weather,
   .booknow,
   .aboutUs,
@@ -18,7 +18,7 @@
     justify-content: center;
     font-size: 3rem;
   }
-  
+/*   
   .contactUs {
     background-image: url('/public/images/bg-img-2.jpg');
     background-position: center;
@@ -26,7 +26,7 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-  }
+  } */
   .faq {
     background-image: url('/public/images/bg-img-3.jpg');
     background-position: center;
