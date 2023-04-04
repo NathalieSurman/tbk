@@ -1,8 +1,11 @@
 import React from 'react'
 import '../../App.css'
+import { WeatherTable } from '../WeatherTable'
 
 export const Weather = () => {
   return (
-    <h1 className='weather'>weather</h1>
+    <>
+    <WeatherTable/>
+    </>
   )
 }
