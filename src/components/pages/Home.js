@@ -1,8 +1,8 @@
 import React from 'react'
 import { HeroSection } from '../HeroSection'
 import {Cards} from '../Cards'
-import '../../index.css'
 import { Policy } from '../Policy'
+import { Expect } from '../Expect'
 
 
 export const Home = () => {
@@ -11,6 +11,7 @@ export const Home = () => {
     <HeroSection />
     <Cards />
     <Policy/>
+    <Expect/>
   </>
   )
 }

@@ -1,10 +1,12 @@
-.container {
+.container-policy {
     padding: 200px;
     /* max-width: 1120px;
     width: 90%; */
-    /* background: rgb(214, 211, 211); */
-    color: #f3f2f5;
+    background: rgba(213, 215, 222, 0.926);
+    color: #312e2e;
+    backdrop-filter: blur(5px);
    }
+
    
    .faq-drawer {
      margin-bottom: 30px;
@@ -19,7 +21,7 @@
    }
    
    .faq-drawer__title {
-     border-top: #faf8f8 1px solid;
+     border-top: #1d1c1c 1px solid;
      cursor: pointer;
      display: block;
      font-size: 1.25em;
@@ -49,7 +51,7 @@
    
    /* OPTIONAL HOVER STATE */
    .faq-drawer__title:hover { 
-     color: #f3f2f5  ;
+     color: #101010  ;
    }
    
    .faq-drawer__trigger:checked
@@ -67,8 +69,8 @@
      display: none;
    }
    
-   @media only screen and (max-width: 600px) {
-     .container {
+   @media only screen and (max-width: 960px) {
+     .container-policy  {
        padding: 80px;
        
      }
