@@ -4,9 +4,9 @@ import "./Policy.css"
 
 export const Policy = () => {
   return (
-    <div class="container">
+    <div class="container-policy">
     
-    <h1>Policy</h1>
+    <h1 className='policy-title'>Policy</h1>
     
     <div class="faq-drawer">
       <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">PETS </label>
