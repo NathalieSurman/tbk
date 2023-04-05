@@ -7,7 +7,7 @@ header {
   text-align: center;
   margin-bottom: 20px;
 }
-h1 {
+.weather-title {
   font-size: 30px;
   color: #fff;
   text-transform: uppercase;
@@ -70,15 +70,16 @@ td {
 
 /* demo styles */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-body {
+
+.weather-container {
   background: -webkit-linear-gradient(left, #25c481, #25b7c4);
   background: linear-gradient(to right, #25c481, #25b7c4);
-  font-family: "Roboto", sans-serif;
+
 }
-section {
+.weather-sec {
   margin: 50px;
   overflow-x: auto;
+
 }
 
 @media screen and (max-width: 600px) {
