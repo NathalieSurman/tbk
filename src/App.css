@@ -10,7 +10,7 @@
   
   .weather,
   .booknow,
-  .aboutUs,
+  
   .faq {
     display: flex;
     height: 100vh;
@@ -56,11 +56,11 @@
     color: #fff;
     font-size: 100px;
   }
-  .aboutUs {
+  /* .aboutUs {
     background-image: url('/public/images/img-1.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-  }
+  } */
