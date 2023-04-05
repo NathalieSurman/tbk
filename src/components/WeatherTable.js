@@ -3,8 +3,8 @@ import "./WeatherTable.css";
 
 export const WeatherTable = () => {
   return (
-    <>
-      <section>
+    <div className="weather-container">
+      <section className="weather-sec">
         <header>Planning your Trip</header>
         <div className="planning">
           <h4>The trip planning estimates in the tables below assume:</h4>
@@ -32,7 +32,7 @@ export const WeatherTable = () => {
           </ol>
         </div>
 
-        <h1>Heading East (turing left)</h1>
+        <h1 className="weather-title">Heading East (turing left)</h1>
 
         <div className="tbl-header">
           <table cellpadding="0" cellspacing="0" border="0">
@@ -80,8 +80,8 @@ export const WeatherTable = () => {
         </div>
       </section>
 
-      <section>
-        <h1>Heading West (turing right)</h1>
+      <section className="weather-sec">
+        <h1 className="weather-title">Heading West (turing right)</h1>
 
         <div className="tbl-header">
           <table cellpadding="0" cellspacing="0" border="0">
@@ -128,6 +128,6 @@ export const WeatherTable = () => {
           </table>
         </div>
       </section>
-    </>
+    </div>
   );
 };

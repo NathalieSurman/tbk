@@ -5,8 +5,8 @@ import "./Faq.css"
 export const Faq = () => {
   return (
     <div className='faq'>
-<div class="container">
-  <h1>Frequently Asked Questions</h1>
+<div class="container-faq">
+  <h1 className='faq-title-top'>Frequently Asked Questions</h1>
   <details>
   <summary>Do I have to take a lesson before I kayak with you? </summary>
   <div>

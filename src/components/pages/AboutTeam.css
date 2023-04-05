@@ -5,25 +5,25 @@
   box-sizing: border-box;
 }
 
-.container{
+.container-team{
     background-color: #e0eaef;
     
 }
-.main{
+.main-div{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
     background-color: #e0eaef;
   }
   
-  h1 {
+  .aboutteam-title{
       font-size: 24px;
       font-weight: 400;
       text-align: center;
       color: black;
   }
   
-  img {
+    .people-img {
     height: auto;
     max-width: 100%;
     vertical-align: middle;
@@ -31,7 +31,7 @@
   
 
   
-  .cards {
+  .cards-ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
