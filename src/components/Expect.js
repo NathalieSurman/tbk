@@ -3,6 +3,7 @@ import "./Expect.css"
 
 export const Expect = () => {
   return (
+    <div className='wrapper-ex'>
     <section class="articles-container">
         {/* <h1>What to Expect</h1> */}
   <article>
@@ -101,5 +102,6 @@ export const Expect = () => {
     </div>
     </article>
 </section>
+</div>
 )
 }

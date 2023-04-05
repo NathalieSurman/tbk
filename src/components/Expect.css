@@ -2,13 +2,20 @@
 .articles-container {
     display: grid;
     max-width: 1200px;
+    
+
     margin-inline: auto;
     padding-inline: 24px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
     padding: 48px 0;
-    
 
+
+}
+.wrapper-ex{
+  background: url(/public/images/bg-img-2.jpg) center center;
+
+  background-size: cover;
 }
 
 article {
