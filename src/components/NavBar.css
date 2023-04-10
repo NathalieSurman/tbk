@@ -1,5 +1,7 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+    
+background: url(/public/images/footer-bd-3.jpg);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -19,14 +21,15 @@
 }
 
 .navbar-logo {
-  color: #fff;
+
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
+  width: 80px;
 }
 
 .fa-typo3 {
@@ -118,6 +121,7 @@
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
+    width: 50px;
   }
 
   .menu-icon {

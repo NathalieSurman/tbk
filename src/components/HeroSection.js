@@ -31,7 +31,17 @@ export const HeroSection = ({prop}) => {
         </Button>
         
       </div>
+      <div className="social-ig">
+      <p>Click Icon To Get Updates <a href="https://www.instagram.com/torontobeachkayak/" class="fa-brands fa-instagram"></a></p>
+      </div>
+      
       
     </div>
   );
 };
+
+
+
+{/* <i class="fa-brands fa-square-instagram"></i> */}
+
+{/* <i class="fa-brands fa-instagram"></i> */}
