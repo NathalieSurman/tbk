@@ -5,117 +5,68 @@ import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
-    <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div>
-      </section>
-      <div class='footer-links'>
-        {/* Make sure you have this "footer-link-wrapper" in the wrapper for the mobile responsive to work well  */}
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
-          </div>
-        </div>
-         {/* Make sure you have this "footer-link-wrapper" in the wrapper for the mobile responsive to work well  */}
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
-        </div>
-      </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-            Kayak
-              <i class='fab fa-typo3' />
-            </Link>
-          </div>
-          <small class='website-rights'> Kayak © 2023</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
-        </div>
-      </section>
+   
+<footer class="footer-distributed">
+
+<div class="footer-left">
+<div class="logo-widget">
+    <figure class="logo-box"><a href="#"><img src="./images/tbk-logo-darker.png" alt=""/></a></figure>
     </div>
+
+  {/* <h3>Company<span>logo</span></h3> */}
+
+  {/* <p class="footer-links">
+    <a href="#" class="link-1">Home</a>
+  
+    <a href="#">About</a>
+    
+    <a href="#">Faq</a>
+    
+    <a href="#">Contact</a>
+  </p> */}
+
+  {/* <p class="footer-company-name">Toronto Beach Kayak © 2023</p> */}
+</div>
+
+<div class="footer-center">
+
+  <div>
+    <i class="fa fa-map-marker"></i>
+    <p><span>77 Kew Beach Ave,</span>  Toronto, Ontario, Canada</p>
+  </div>
+
+  <div>
+    <i class="fa fa-phone"></i>
+    <p>(416)-629-6040</p>
+  </div>
+
+  <div>
+    <i class="fa fa-envelope"></i>
+    <p><a href="mailto:support@company.com"> team@torontobeachkayak.ca</a></p>
+  </div>
+
+</div>
+
+<div class="footer-right">
+
+  <p class="footer-company-about">
+    <span>Our Partnerships</span>
+    ClearWater,
+    PeekPro, WSUP
+  </p>
+
+  <div class="footer-icons">
+
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+  
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+  </div>
+
+</div>
+
+</footer>
   );
 }
 
