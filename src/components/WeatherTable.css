@@ -77,7 +77,8 @@ td {
 
 }
 .weather-sec {
-  margin: 50px;
+  /* margin: 50px; */
+  padding: 50px;
   overflow-x: auto;
 
 }

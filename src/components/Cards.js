@@ -32,13 +32,13 @@ export const Cards = () => {
                   <div className="cards__item__info">
                     <h5 className="cards__item__text">Kayak Rentals</h5>
 
-                    <h4>Single Kayak Rentals </h4>
+                    <h4 className="subtitle">Single Kayak Rentals </h4>
                     <ul>
                       <li>First hour $35</li>
                       <li>Two hours $55</li>
                       <li>Weekday daily max $90</li>
                     </ul>
-                    <h4>Tandem (Double) Kayak Rentals</h4>
+                    <h4 className="subtitle">Tandem (Double) Kayak Rentals</h4>
                     <ul>
                       <li>First hour $70</li>
                       <li>Two hours $100</li>
@@ -70,11 +70,11 @@ export const Cards = () => {
                   <div className="cards__item__info">
                     <h5 className="cards__item__text">Kayak Rental Passes</h5>
 
-                    <h4>Kayak 5-Pass (5 x 1-hr rentals) </h4>
+                    <h4 className="subtitle">Kayak 5-Pass (5 x 1-hr rentals) </h4>
                     <ul>
                       <li>$140 (available soon!)</li>
                     </ul>
-                    <h4>Kayak 10-Pass (10 x 1-hr rentals) </h4>
+                    <h4 className="subtitle">Kayak 10-Pass (10 x 1-hr rentals) </h4>
                     <ul>
                       <li>$250 (available soon!)</li>
                     </ul>
@@ -111,9 +111,9 @@ export const Cards = () => {
                   <div className="cards__item__info">
                     <h5 className="cards__item__text">Kayak Lessons</h5>
                     <div className="lessons">
-                      <h4>Private Lesson (1): $100 pp</h4>
-                      <h4>Semi-Private Lesson (2): $80 pp</h4>
-                      <h4>Group Lesson (3 or more): $60 pp</h4>
+                      <h4 className="subtitle">Private Lesson (1): $100 pp</h4>
+                      <h4 className="subtitle">Semi-Private Lesson (2): $80 pp</h4>
+                      <h4 className="subtitle">Group Lesson (3 or more): $60 pp</h4>
                     </div>
                     <p>
                       All lessons are one hour and include 10-20 minutes on-land
