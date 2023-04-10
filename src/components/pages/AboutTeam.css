@@ -6,14 +6,16 @@
 }
 
 .container-team{
-    background-color: #e0eaef;
+    /* background-color: #e0eaef; */
+      background: linear-gradient(90deg, rgb(252, 251, 251) 0%, rgb(241, 243, 244) 100%);
     
 }
 .main-div{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
-    background-color: #e0eaef;
+    /* background-color: #e0eaef; */
+    background: linear-gradient(90deg, rgb(252, 251, 251) 0%, rgb(241, 243, 244) 100%);
   }
   
   .aboutteam-title{
@@ -37,7 +39,8 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: #e0eaef;
+    /* background-color: #e0eaef; */
+    background: linear-gradient(90deg, rgb(237, 243, 244) 0%, rgb(240, 242, 244) 100%);
   }
   
   .cards_item {
@@ -68,7 +71,8 @@
   
   .card_content {
     padding: 1rem;
-    background: linear-gradient(to bottom left, #44020c 40%, #d6adad 100%);
+    /* background: linear-gradient(to bottom left, #44020c 40%, #d6adad 100%); */
+    background: linear-gradient(90deg, rgb(123, 141, 150) 0%, rgb(208, 219, 225) 100%);
   }
   
   .card_title {
