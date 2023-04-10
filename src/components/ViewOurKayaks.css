@@ -1,0 +1,66 @@
+
+.c {
+  background-image: url(/public/images/bluebackground.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px; 
+}
+ul {
+  padding: 10px;
+  color: grey;
+}
+.ViewKayakHeader {
+  color: rgb(36, 79, 126);
+  padding: 20px;
+}
+.cardkayak {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 900px;
+
+  border-radius: 5px;
+  display: grid;
+  margin: 20px;
+}
+.cardkayak .img-c {
+  width: 300px;
+  height: 230px;
+
+  border-radius: 5px;
+}
+.card-cont {
+  grid-column: 3 / 5;
+  padding: 10px 30px;
+}
+.TypeKayak {
+  text-transform: uppercase;
+  color: #296c95;
+}
+.kayak {
+  margin-bottom: 0;
+}
+.excerpt {
+  color: rgb(100, 97, 97);
+}
+.card-content .author {
+  border-top: 1px solid #cdcdcd;
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 25px 0 10px 0;
+  color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardkayak {
+    display: block;
+  }
+  .cardkayak .img-c {
+    height: 250px;
+    width: 100%;
+  }
+  .card-cont {
+    border: 0;
+  }
+}
