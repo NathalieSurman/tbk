@@ -6,7 +6,9 @@
 h1 {
   text-align: center;
 }
-
+.subtitle{
+  color: black;
+}
 .cards__container {
   display: flex;
   flex-flow: column;

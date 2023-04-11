@@ -78,8 +78,8 @@ td {
 }
 .weather-sec {
   /* margin: 50px; */
+  padding: 50px;
   overflow-x: auto;
-
 }
 
 @media screen and (max-width: 600px) {
