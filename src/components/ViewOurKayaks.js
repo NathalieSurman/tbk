@@ -4,7 +4,6 @@ import "./ViewOurKayaks.css";
 
 export const ViewOurKayaks = () => {
   return (
-    
     <div class="c">
       <div className="card-box">
         <h1 className="ViewKayakHeader">Our Kayaks</h1>

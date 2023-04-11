@@ -5,117 +5,48 @@ import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
-    <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
+ 
+<section  className='footer-sec'>
+  <div className='footer-container'> 
+  <div class="main-footer">
+    <div class="logoinfo" data-aos="fade-up">
+
+      <div class="contact-details">
+        <h1 className='footer-tit'>Contact Us</h1>
+        <li  className='footer-li'>
+          <div class="fa fa-phone"></div><a href="tel:+4166296040">+416-629-6040</a></li>
+        <li  className='footer-li'>
+          <div class="fa fa-envelope"></div><a href="team@torontobeachkayak.ca">team@torontobeachkayak.ca</a></li>
+          <li  className='footer-li'>
+          <div class="fa fa-map-marker"></div><a href="https://www.google.com/maps/dir//77+Kewbeach+Ave,+Toronto,+ON+M4L+1B8/@43.6662398,-79.3705337,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89d4cbf9e9996849:0xaff59a67fbbccca9!2m2!1d-79.3004939!2d43.6662612">77 Kew Beach Ave, 
+          Toronto, Ontario, Canada</a></li>
         </div>
-      </section>
-      <div class='footer-links'>
-        {/* Make sure you have this "footer-link-wrapper" in the wrapper for the mobile responsive to work well  */}
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
-          </div>
-        </div>
-         {/* Make sure you have this "footer-link-wrapper" in the wrapper for the mobile responsive to work well  */}
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
-        </div>
-      </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-            Kayak
-              <i class='fab fa-typo3' />
-            </Link>
-          </div>
-          <small class='website-rights'> Kayak © 2023</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
+  </div>
+  <div class="com " data-aos="fade-up">
+  <h1 className='footer-tit'>Our Partnerships</h1>
+    <ul className='footer-ul'>
+    <li className='footer-li'><a href="https://clearwaterdesign.shop/">ClearWater</a></li>
+      <li className='footer-li'><a href="https://www.peekpro.com/https://www.peekpro.com/">PeekPro</a></li>
+      <li className='footer-li'><a href="https://www.wsuptoronto.ca/">WSUP</a></li>
+    </ul>
+  </div>
+  <div class="info" data-aos="fade-up">
+    <h1 className='footer-tit'>Social Media</h1>
+    <div class="sociallogos">
+      <div class="logobox">
+      <a href="https://www.instagram.com/torontobeachkayak/" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/torontobeachkayak.ca/" class="fa fa-facebook"></a>
+         <a href="#" class="fa fa-twitter"></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+<footer>© Toronto Kayak Beach Copyright 2023 All Rights Reserved</footer>
+
+</section>
+
   );
 }
 

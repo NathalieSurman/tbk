@@ -43,7 +43,7 @@ table {
 }
 .tbl-content {
   height: 165px;
-  overflow-x: auto;
+  overflow-x: auto; 
   margin-top: 0px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 80%;
@@ -80,7 +80,6 @@ td {
   /* margin: 50px; */
   padding: 50px;
   overflow-x: auto;
-
 }
 
 @media screen and (max-width: 600px) {
