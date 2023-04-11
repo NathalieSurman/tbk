@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-evenly;
   /* background-color: #19302E; */
-  
-background: url(/public/images/footer-bd-3.jpg);
+  background-color:#303030;
+/* background: url(/public/images/footer-bd-3.jpg); */
 }
 
 .main-footer ul {
@@ -35,7 +35,8 @@ footer {
   padding: 15px 5px;
   color: #ffffff;
   text-align: center;
-background: url(/public/images/footer-bd-3.jpg);
+/* background: url(/public/images/footer-bd-3.jpg); */
+background-color:	#282828;
 }
 
 footer a {
