@@ -6,7 +6,7 @@ export const Expect = () => {
     <div className='wrapper-ex'>
     <section class="articles-container">
         {/* <h1>What to Expect</h1> */}
-  <article>
+  <article >
     <div class="article-wrapper">
       <figure>
         <img src="./images/IMG-13.jpg" alt="sunset on the lake" />
