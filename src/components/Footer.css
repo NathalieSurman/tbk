@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-evenly;
   /* background-color: #19302E; */
-  background-color:#303030;
+  /* background-color:#303030; */
+  background: #444a53;
 /* background: url(/public/images/footer-bd-3.jpg); */
 }
 
@@ -36,7 +37,8 @@ footer {
   color: #ffffff;
   text-align: center;
 /* background: url(/public/images/footer-bd-3.jpg); */
-background-color:	#282828;
+/* background-color:	#282828; */
+background: #444a53;
 }
 
 footer a {
