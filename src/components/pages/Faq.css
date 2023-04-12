@@ -3,9 +3,12 @@
   color: #fff;
   text-align: center;
 }
+.faq-title-top {
+  padding: 30px;
+}
 
 details {
-  background-color: #303030;
+  background-color: #50525b;
   color: #fff;
   font-size: 1.5rem;
   width: 1000px;
