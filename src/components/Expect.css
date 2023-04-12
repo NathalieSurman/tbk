@@ -13,9 +13,10 @@
 
 }
 .wrapper-ex{
-  background: url(/public/images/bg-img-2.jpg) center center;
-
-  background-size: cover;
+  background-color: #e3efe8;
+  background-image: linear-gradient(315deg, #e3efe8 0%, #96a7cf 74%);
+  /* background: url(/public/images/bg-img-2.jpg) center center;
+  background-size: cover; */
 }
 
 article {
