@@ -41,6 +41,9 @@ img {
   display: block;
   width: 100%;
 }
+.infor-btn :hover{
+color: #028afc;
+}
 
 .cards--ul {
   display: flex;

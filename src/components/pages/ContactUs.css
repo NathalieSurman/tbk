@@ -52,7 +52,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 
 .section1 h1 {
 	font-size: 40px;
-	color: #a91818;;
+	color: #e0222a;
 	font-weight: normal;
 }
 
@@ -104,7 +104,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	padding: 15px 40px;
     color: #fff;
     border: 0;
-    background: #a91818;
+    background: #e0222a;
     font-size: 16px;
     text-transform: uppercase;
     margin: 7px 0;
@@ -116,7 +116,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
     margin-top: 30px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 19px;
-    color: #a91818;;
+    color: #e0222a;
 }
 
 /* @media querries */
