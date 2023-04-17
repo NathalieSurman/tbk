@@ -1,55 +1,78 @@
-.container-faq .faq-title-top {
-  /* background-color: #000; */
-  color: #fff;
-  text-align: center;
-}
-.faq-title-top {
-  padding: 30px;
-}
 
-details {
-  background-color: #50525b;
-  color: #fff;
-  font-size: 1.5rem;
-  width: 1000px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+.container-faq {
+  padding: 200px;
+ }
+ .faq-title{
+  padding-bottom: 15px;
+ }
+ .faq-title:hover { 
+  color:#028afc;
 }
-@media screen and (max-width: 960px) {
-  details {
-    /* position: relative; */
-    width: auto;
-  }
-}
-
-summary {
-  /* padding: .5em 1.3rem; */
-  padding: 0.5em 1.5rem;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  transition: height 1s ease;
-  gap: 10px;
-}
-
-summary::-webkit-details-marker {
-  display: none;
-}
-
-summary:after {
-  content: "\002B";
-}
-
-details[open] summary {
-  border-bottom: 1px solid #aaa;
-  margin-bottom: 0.5em;
-}
-
-details[open] summary:after {
-  content: "\00D7";
-}
-
-details[open] div {
-  padding: 0.5em 1em;
-  background-color: grey;
-}
+ 
+ .faq-drawer {
+   margin-bottom: 30px;
+ }
+ 
+ .faq-drawer__content-wrapper {
+   font-size: 1.25em;
+   line-height: 1.4em;
+   max-height: 0px;
+   overflow: hidden;
+   transition: 0.25s ease-in-out;
+ }
+ 
+ .faq-drawer__title {
+   border-top: #000000 1px solid;
+   cursor: pointer;
+   display: block;
+   font-size: 1.25em;
+   font-weight: 700;
+   padding: 30px 0 0 0;
+   position: relative;
+   margin-bottom: 0;
+   transition: all 0.25s ease-out;
+ }
+ 
+ .faq-drawer__title::after {
+   border-style: solid;
+   border-width: 1px 1px 0 0;
+   content: " ";
+   display: inline-block;
+   float: right;
+   height: 10px;
+   left: 2px;
+   position: relative;
+   right: 20px;
+   top: 2px;
+   transform: rotate(135deg);
+   transition: 0.35s ease-in-out;
+   vertical-align: top;
+   width: 10px;
+ }
+ 
+ /* OPTIONAL HOVER STATE */
+ .faq-drawer__title:hover { 
+   color:#028afc;
+ }
+ 
+ .faq-drawer__trigger:checked
+   + .faq-drawer__title
+   + .faq-drawer__content-wrapper {
+   max-height: 350px;
+ }
+ 
+ .faq-drawer__trigger:checked + .faq-drawer__title::after {
+   transform: rotate(-45deg);
+   transition: 0.25s ease-in-out;
+ }
+ 
+ input[type="checkbox"] {
+   display: none;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+   .container-faq {
+     padding: 80px;
+   }
+ }
+ 

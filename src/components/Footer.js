@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
+
 
 export const Footer = () => {
   return (
@@ -40,6 +39,9 @@ export const Footer = () => {
          <a href="#" class="fa fa-twitter"></a>
       </div>
     </div>
+  </div>
+  <div class="footer-image-logo" data-aos="fade-up">
+<img src='./images/tbk-logo.png' className='footer-img'/>
   </div>
   </div>
   

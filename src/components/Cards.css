@@ -17,6 +17,18 @@ h1 {
   width: 90%;
   margin: 0 auto;
 }
+.buttonDiv button{
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+
+.buttonDiv button:hover {
+  background-color: #e0222a;
+  /* box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
+  box-shadow: 0px 15px 20px rgba(100, 100, 102, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
 
 .cards__wrapper {
   position: relative;
@@ -137,6 +149,7 @@ p {
   .content__blog__container {
     width: 84%;
   }
+  
 }
 
 @media only screen and (min-width: 1024px) {
@@ -150,3 +163,4 @@ p {
     margin-bottom: 2rem;
   }
 }
+

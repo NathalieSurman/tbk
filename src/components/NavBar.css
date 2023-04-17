@@ -1,7 +1,7 @@
 .navbar {
-  /* background: linear-gradient(90deg, rgb(47, 50, 52) 0%, rgb(129, 147, 159) 100%); */
+  /* background: linear-gradient(90deg, rgb(47, 50, 52) 0%, rgb(216, 220, 223) 100%); */
     background: #444a53;
-/* background: url(/public/images/footer-bd-3.jpg); */
+/* background: url(/public/images/footer-bd-3.jpg);  rgb(47, 50, 52) 0%*/
   height: 80px;
   display: flex;
   justify-content: center;
@@ -20,6 +20,7 @@
   height: 80px;
   max-width: 1500px;
 }
+
 
 .navbar-logo {
 
