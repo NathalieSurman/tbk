@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import '../../App.css'
 import "./ContactUs.css"
+import emailjs from '@emailjs/browser';
 
 export const ContactUs = () => {
+	const form = useRef()
+	  //NOTE: we got this code from https://www.emailjs.com/docs/examples/reactjs/  if you need this again
+  //NOTE: GO HERE for step-by-step guidelines ---> https://devjoe.medium.com/contact-form-with-react-using-emailjs-5bdd8bf1524b   ////
+
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, publicKey)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+	  //This is so we can reset the form 
+      e.target.reset()
+    }
   return (
 <>
 	<div className="containerCon">
@@ -37,19 +55,20 @@ export const ContactUs = () => {
 					</div>
 					<div class="sec2contactform">
 						<h3 class="sec2frmtitle">Want to Know More?? Don't be afraid to reach out</h3>
-						<form action="">
+						<form ref={form} onSubmit={sendEmail}>
 							<div class="clearfix">
-								<input class="col2 first" type="text" placeholder="FirstName" required/>
-								<input class="col2 last" type="text" placeholder="LastName" required/>
+								<input class="col2 first" type="text" name='name' placeholder="Full Name" required/>
+								<input class="col2 last" type="text" name='subject' placeholder="Subject" required/>
 							</div>
 							<div class="clearfix">
-								<input  class="col2 first" type="Email" placeholder="Email" required/>
-								<input class="col2 last" type="text" placeholder="Contact Number"/>
+								<input  class="col2 first" type="Email" name='email' placeholder="Email" required/>
+								<input class="col2 last" type="text"name='contact_number' placeholder="Contact Number"/>
 							</div>
 							<div class="clearfix">
-								<textarea name="textarea" id="" cols="30" rows="7" required>Your message here...</textarea>
+								<textarea name="message" id="" cols="30" rows="7" placeholder='Your Message....' required></textarea>
 							</div>
-							<div class="clearfix"><input className='submit-con' type="submit" value="Send"/></div>
+							{/* <div class="clearfix"><input className='submit-con' type="submit" value="Send"/></div> */}
+							<button type='submit' className='submit-con'>Send</button>
 						</form>
 					</div>
 
