@@ -9,10 +9,10 @@ return (
   <ul class="cards-ul">
     <li class="cards_item">
         <div class="card">
-        <div class="card_image"><img src="https://picsum.photos/500/300/?image=10" alt='' className='people-img'/></div>
+        <div class="card_image"><img src="/images/lousi.jpg" alt='' className='people-img'/></div>
         <div class="card_content">
-            <h2 class="card_title">Jane Doe</h2>
-            <p class="card_text">CEO & Founder</p>
+            <h2 class="card_title">Louis</h2>
+            <p class="card_text">Owner</p>
             <p class="card_text">Some text that describes me lorem ipsum ipsum lorem.</p>
         
         </div>
@@ -20,15 +20,15 @@ return (
     </li>
     <li class="cards_item">
         <div class="card">
-        <div class="card_image"><img src="https://picsum.photos/500/300/?image=5" alt='' className='people-img'/></div>
+        <div class="card_image"><img src="/images/Moran.jpg" alt='' className='people-img'/></div>
         <div class="card_content">
-        <h2 class="card_title">Mike Ross</h2>
-            <p class="card_text">Art Director</p>
+        <h2 class="card_title">Moran</h2>
+            <p class="card_text">Instructor</p>
             <p class="card_text">Some text that describes me lorem ipsum ipsum lorem.</p>
         </div>
       </div>
     </li>
-    <li class="cards_item">
+    {/* <li class="cards_item">
       <div class="card">
         <div class="card_image"><img src="https://picsum.photos/500/300/?image=11" alt='' className='people-img'/></div>
         <div class="card_content">
@@ -37,7 +37,7 @@ return (
           <p class="card_text">Some text that describes me lorem ipsum ipsum lorem.</p>
         </div>
         </div>
-    </li>
+    </li> */}
 
   </ul>
 </div>
