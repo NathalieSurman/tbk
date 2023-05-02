@@ -92,7 +92,7 @@ export const NavBar = () => {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>BOOK NOW</Button>}
+          {button && <a href="https://book.peek.com/s/216805e5-bad2-47ed-be72-432a10ce33c4/eLE83"><Button buttonStyle='btn--outline'>BOOK NOW</Button></a>}
         </div>
       </nav>
     </>
