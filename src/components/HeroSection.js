@@ -19,11 +19,12 @@ export const HeroSection = ({ prop }) => {
         >
           WAIVER <RiShieldCheckLine />
         </Button>
-        <a href="https://book.peek.com/s/216805e5-bad2-47ed-be72-432a10ce33c4/eLE83">
+        <a href="https://book.peek.com/s/216805e5-bad2-47ed-be72-432a10ce33c4/eLE83" target="_blank" rel="noopener noreferrer">
           <Button
             className="btns"
             buttonStyle="btn--primary"
             buttonSize="btn--large"
+            target ="_bank"
           >
             BOOK NOW <i class="fa-solid fa-calendar-check"></i>
           </Button>
