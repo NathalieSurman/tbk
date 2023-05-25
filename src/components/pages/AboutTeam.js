@@ -43,16 +43,22 @@ export const AboutTeam = () => {
               </div>
             </div>
           </li>
-          {/* <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><img src="https://picsum.photos/500/300/?image=11" alt='' className='people-img'/></div>
-        <div class="card_content">
-        <h2 class="card_title">John Doe</h2>
-          <p class="card_text">Designer</p>
-          <p class="card_text">Some text that describes me lorem ipsum ipsum lorem.</p>
-        </div>
-        </div>
-    </li> */}
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img src="/images/Jess.jpg" alt="" className="people-img" />
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">Jess</h2>
+                <p class="card_text">Founder</p>
+                <p class="card_text">
+                In 2016, she teamed up with WSUP Toronto,
+                establishing the first-ever kayak rental business in Toronto's captivating east beaches.
+                While she has bid farewell to her role at Toronto Beach Kayak, her legacy continues to inspire water enthusiasts in the city.
+                </p>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </div>

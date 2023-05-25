@@ -26,7 +26,8 @@
   }
   
     .people-img {
-    height: auto;
+    height: 400px;
+    width: 400px;
     max-width: 100%;
     vertical-align: middle;
   }
@@ -61,7 +62,7 @@
   }
   
   .card {
-    background-color: white;
+    /* background-color: white; */
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -71,8 +72,8 @@
   
   .card_content {
     padding: 1rem;
-    /* background: linear-gradient(to bottom left, #44020c 40%, #d6adad 100%); */
-    /* background: linear-gradient(90deg, rgb(151, 182, 190) 0%, rgb(170, 183, 190) 100%); */
+    background: linear-gradient(to bottom left, #44020c 40%, #d6adad 100%);
+    background: linear-gradient(90deg, rgb(151, 182, 190) 0%, rgb(170, 183, 190) 100%);
     background: linear-gradient(380deg, rgb(100, 100, 102) 0%, rgb(170, 183, 190) 100%);
   }
   
@@ -92,9 +93,9 @@
     margin-bottom: 1.25rem;    
     font-weight: 400;
   }
-  /* .made_by{
+  .made_by{
     font-weight: 400;
     font-size: 13px;
     margin-top: 35px;
     text-align: center;
-  } */
+  }

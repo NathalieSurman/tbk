@@ -17,7 +17,7 @@ export const WeatherLinks = () => {
 		<p className="card__text">
 All reservations cancelled with 24-hour notice and/or cancelled due to unsafe or 
 unpleasant paddling conditions will be rescheduled or fully refunded</p>
-        <button class="infor-btn"><a href='https://www.windfinder.com/forecast/ashbridges_bay_point' className='a-info'>Read More</a></button>
+        <button class="infor-btn"><a href='https://www.windfinder.com/forecast/ashbridges_bay_point' className='a-info' target="_blank" rel="noopener noreferrer">Read More</a></button>
       </div>
     </div>
   </li>
@@ -31,7 +31,7 @@ unpleasant paddling conditions will be rescheduled or fully refunded</p>
 		<h4 className='wlq-subtitle'>The Blue Flag International standard for 4 categories:</h4>
 		<p className="card__text">
 		Environmental Education & Information; Water Quality; Environmental Management; and Safety & Services.</p>
-        <button className="infor-btn"><a href='https://www.toronto.ca/community-people/health-wellness-care/health-inspections-monitoring/swimsafe/beach-water-quality/#inspection_details/9' className='a-info'>Read More</a></button>
+        <button className="infor-btn"><a href='https://www.toronto.ca/community-people/health-wellness-care/health-inspections-monitoring/swimsafe/beach-water-quality/#inspection_details/9' className='a-info' target="_blank" rel="noopener noreferrer">Read More</a></button>
       </div>
     </div>
   </li>
