@@ -12,6 +12,7 @@ export const HeroSection = ({ prop }) => {
       <h1>Kayak Rentals & Lessons for the Whole Family!</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
+        <a href="https://waiver.smartwaiver.com/w/xwjgo9su7mblejz7g9uo2w/web/" target="_blank" rel="noopener noreferrer">
         <Button
           className="btns"
           buttonStyle="btn--outline"
@@ -19,6 +20,7 @@ export const HeroSection = ({ prop }) => {
         >
           WAIVER <RiShieldCheckLine />
         </Button>
+        </a>
         <a href="https://book.peek.com/s/216805e5-bad2-47ed-be72-432a10ce33c4/eLE83" target="_blank" rel="noopener noreferrer">
           <Button
             className="btns"
