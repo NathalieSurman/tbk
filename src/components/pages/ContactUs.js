@@ -28,8 +28,6 @@ export const ContactUs = () => {
 		
 			<section class="section1 clearfix">
 				<div class="textcenter">
-					<span class="shtext">Contact Us</span>
-					<span class="seperator"></span>
 					<h1>Our kayaks will be ready and waiting for you to launch right on the beach!</h1>
 				</div>
 			</section>

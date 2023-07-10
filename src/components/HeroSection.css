@@ -52,17 +52,15 @@ video {
   color: #fff;
   padding: 6px 2px;
   transition: all 0.3s ease-out;
+
 }
 
 .social-ig{
-  padding:0 10px;
-  text-decoration:none;
   color:#ffffff;
-  font-size:22px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
 }
-a{
-  text-decoration: none;
-}
+
 
 @media screen and (max-width: 960px) {
   .hero-container > h1 {

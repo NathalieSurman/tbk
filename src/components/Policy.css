@@ -1,23 +1,25 @@
 .container-policy {
-    padding: 200px;
-    /* max-width: 1120px;
-    width: 90%; */
-    background: rgba(213, 215, 222, 0.926);
-    color: #312e2e;
-    backdrop-filter: blur(5px);
-   }
+    padding: 150px;
+}
 
-   
+.policy-title{
+  padding-bottom: 15px;
+}
+
+.policy-title:hover{
+  color:#028afc;
+}
    .policy-drawer {
      margin-bottom: 30px;
    }
    
    .policy-drawer__content-wrapper {
-     font-size: 1.25em;
-     line-height: 1.4em;
-     max-height: 0px;
-     overflow: hidden;
-     transition: 0.25s ease-in-out;
+
+   font-size: 1.25em;
+   line-height: 1.4em;
+   max-height: 0px;
+   overflow: hidden;
+   transition: 0.25s ease-in-out;
    }
    
    .policy-drawer__title {
@@ -51,7 +53,7 @@
    
    /* OPTIONAL HOVER STATE */
    .policy-drawer__title:hover { 
-     color: #101010  ;
+    color:#028afc;
    }
    
    .policy-drawer__trigger:checked

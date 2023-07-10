@@ -63,11 +63,11 @@ export const NavBar = () => {
             </li>
             <li className='nav-item'>
               <Link
-                to='/faq'
+                to='/policyandfaq'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                FAQ
+                Policy/FAQ
               </Link>
             </li>
 
@@ -77,18 +77,19 @@ export const NavBar = () => {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Contact Us
+               Location/Contact
               </Link>
             </li>
 
 
             <li>
               <Link
-                to='/booknow'
+                to='https://book.peek.com/s/216805e5-bad2-47ed-be72-432a10ce33c4/eLE83'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
+                target="_blank" rel="noopener noreferrer"
               >
-                Book Now
+                Book Now 
               </Link>
             </li>
           </ul>

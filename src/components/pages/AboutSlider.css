@@ -19,7 +19,7 @@
 	height: 100%;
 	float: left;
 }
-.container .slider .slide .caption { 
+.container .slider .slide .caption {
 	position: absolute;
 	bottom: 60px;
 	right: 60px;
@@ -27,7 +27,7 @@
 	padding: 30px;
 	background-color: rgba(0,0,0,.5);
 	box-sizing:border-box;
-	transition: 0.5s;
+	transition: 0.9s;
 }
 .container .slider .slide .caption h2 { 
 	margin: 0;

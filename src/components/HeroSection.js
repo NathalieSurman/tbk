@@ -33,13 +33,15 @@ export const HeroSection = ({ prop }) => {
         </a>
       </div>
       <div className="social-ig">
-        <p>
-          Click Icon To Get Updates{" "}
+        <span>
           <a
             href="https://www.instagram.com/torontobeachkayak/"
-            class="fa-brands fa-instagram"
-          ></a>
-        </p>
+            class="fa-brands"
+            target ="_bank"
+          >
+            Follow Us on Instagram for Updates
+          </a>
+        </span>
       </div>
     </div>
   );
