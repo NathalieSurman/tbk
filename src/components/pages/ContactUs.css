@@ -33,6 +33,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 }
 .textcenter {
 	text-align: center;
+	padding-top: 15px;
 }
 .section1 {
 	text-align: center;

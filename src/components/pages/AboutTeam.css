@@ -5,11 +5,7 @@
   box-sizing: border-box;
 }
 
-.container-team{
-    /* background-color: #e0eaef; */
-      background: linear-gradient(90deg, rgb(242, 245, 245) 0%, rgb(240, 242, 243) 100%);
-    
-}
+
 .main-div{
     max-width: 1200px;
     margin: 0 auto;
@@ -77,20 +73,13 @@
     background: linear-gradient(380deg, rgb(100, 100, 102) 0%, rgb(170, 183, 190) 100%);
   }
   
-  .card_title {
-    color: #ffffff;
-    font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin: 0px;
-  }
+
   
   .card_text {
     color: #ffffff;
     font-size: 0.895rem;
     line-height: 1.5;
-    margin-bottom: 1.25rem;    
+    margin-bottom: 1.25rem;
     font-weight: 400;
   }
   .made_by{
@@ -98,4 +87,114 @@
     font-size: 13px;
     margin-top: 35px;
     text-align: center;
+  }
+
+  /* =============== NEW =============================*/
+
+  /* img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  } */
+  
+
+   
+  .about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cards__itemabout {
+    display: flex;
+    padding: 1rem;
+    @media(min-width: 40rem) {
+      width: 50%;
+    }
+    @media(min-width: 56rem) {
+      width: 33.3333%;
+    }
+  }
+  
+  .team-card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    &:hover {
+      .card__image {
+        filter: contrast(100%);
+      }
+    }
+  }
+  
+  .card__contentabout {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .card__image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    filter: contrast(70%);
+  
+    overflow: hidden;
+    position: relative;
+    transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
+    &::before {
+      content: "";
+      display: block;
+      padding-top: 56.25%;
+    }
+    @media(min-width: 40rem) {
+      &::before {
+        padding-top: 66.6%;
+      }
+    }
+  }
+  
+
+  .card__image--moran {
+    background-image: url(/public/images/Moran.jpg);
+  }
+  
+  .card__image--jes {
+    background-image: url(/public/images/Jess.jpg);
+  }
+  
+  .card__image--lousi {
+    background-image: url(/public/images/lousi.jpg);
+  }
+  
+  .card__titleabout {
+    color:  #696969;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .card__textabout {
+    flex: 1 1 auto;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+  }
+  
+  .card_title {
+    color:  #696969;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+   padding-top: 15px;
+    margin: 0px;
   }
