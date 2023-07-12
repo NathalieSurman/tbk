@@ -4,6 +4,8 @@ import {Cards} from '../Cards'
 import { Policy } from '../Policy'
 import { Expect } from '../Expect'
 import {PackagesCards} from "../PackagesCards";
+import { OurKayaks } from '../OurKayaks'
+import { CardExpect } from '../CardExpect'
 
 
 
@@ -13,7 +15,9 @@ export const Home = () => {
     <HeroSection />
     {/* <Cards /> */}
     <PackagesCards/>
-    <Expect/>
+    <OurKayaks/>
+    <CardExpect/>
+    {/* <Expect/> */}
   </>
   )
 }

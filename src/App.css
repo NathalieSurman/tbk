@@ -27,7 +27,7 @@
     font-size: 100px;
   } */
   .faq {
-    background-image: url('/public/images/bg-img-3.jpg');
+  
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@
   }
 
   .policyandfaq{
-    background-image: url('/public/images/bg-img-3.jpg');
+  
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,14 +49,14 @@
   }
   
   .weather {
-    background-image: url('/public/images/img-1.jpg');
+
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
   }
-/*   
+/*
   .booknow {
     background-image: url('/public/images/img-8.jpg');
     background-position: center;

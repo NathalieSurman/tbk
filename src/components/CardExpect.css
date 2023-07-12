@@ -1,16 +1,11 @@
-/* @gray-darker:               #444444;
-@gray-dark:                 #696969;
-@gray:                      #999999;
-@gray-light:                #cccccc;
-@gray-lighter:              #ececec;
-@gray-lightest:             lighten(@gray-lighter,4%); */
 
-.containerpac{
+
+.cardexpect{
     background: white;
-}
+    padding-top: 60px;
+  }
 
-   
-  .cardspac {
+  .cardsexpext {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -18,7 +13,7 @@
     padding: 0;
   }
   
-  .cards__itempac {
+  .cards__itemex {
     display: flex;
     padding: 1rem;
     @media(min-width: 40rem) {
@@ -29,7 +24,7 @@
     }
   }
   
-  .cardpac {
+  .cardex {
     background-color: white;
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
@@ -43,7 +38,7 @@
     }
   }
   
-  .card__contentpac {
+  .card__contentexp {
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
@@ -72,59 +67,53 @@
       }
     }
   }
+  
 
   
-  .card__image--rental {
-    background-image: url(/public/images/IMG_1932.jpg);
+  .card__image--rr {
+    background-image: url(/public/images/IMG-13.jpg);
   }
   
-  .card__image--lesson {
-    background-image: url(/public/images/IMG_1971.jpg);
+  .card__image--people{
+    background-image: url(/public/images/IMG_2012.jpg);
   }
   
-  .card__image--dog {
-    background-image: url("/public/images/dog.jpg");
+  .card__image--feet {
+    background-image: url(/public/images/IMG_1974.jpg);
   }
   
-  .card__titlepac {
+  .card__titleex {
     color: #696969;
     font-size: 1.25rem;
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  .card__subtitlepac{
-    color: #696969;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
   
-  .card__textpac {
+  .card__textexp {
     flex: 1 1 auto;
     font-size: 0.875rem;
     line-height: 1.5;
     margin-bottom: 1.25rem;
   }
-  .card__titlepactop{
+
+  .card__titleExpecttop{
     color:  #696969;
     /* font-size: 1.25rem; */
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
-    padding-top: 15px;
     font-weight: bold;
   }
 
-  .rental__list{
-    flex: 1 1 auto;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    margin-bottom: 1.25rem;
+  /* li{
+    margin-bottom: 1.5em;
+  } */
+
+  .list-inside{
+    margin-bottom: 0.5em;
   }
 
-  .refundPac {
-    text-align: center;
-    width: 1000px;
-    color: #696969;
-    padding-bottom: 5px;
+  .list-exp{
+    padding-top: 20px;
   }

@@ -25,18 +25,18 @@ export const PackagesCards = () => {
         <p class="card__textpac">Group discount of 10% when you rent 5 or more kayaks - use
             Promo Code Summer2022 at check out! All first time-renters
             will receive 10 minute on-land orientation and paddling
-            refresher before heading out on the water. <a href=''>Click Book Now</a> to make your kayak rental reservation.</p>
+            refresher before heading out on the water. <a href="https://book.peek.com/s/216805e5-bad2-47ed-be72-432a10ce33c4/eLE83" target="_blank" rel="noopener noreferrer">Click Book Now</a> to make your kayak rental reservation.</p>
         
         <div class="card__subtitlepac">Single Kayak Rentals</div>
         <ul className='rental__list'>
-            <li>First hour $35</li>
-            <li>Two hours $55</li>
-            <li>Weekday daily max $90</li>
+            <li className='list-inside'>First hour $35</li>
+            <li className='list-inside'>Two hours $55</li>
+            <li className='list-inside'>Weekday daily max $90</li>
         </ul>
         <div class="card__subtitlepac">Tandem (Double) Kayak Rentals</div>
         <ul className='rental__list'>
-            <li>First hour $70</li>
-            <li>Two hours $100</li>
+            <li className='list-inside'>First hour $70</li>
+            <li className='list-inside'>Two hours $100</li>
         </ul>
         
       </div>
@@ -97,17 +97,7 @@ export const PackagesCards = () => {
     </div>
   </li>
 </ul>
-<div className="buttonDiv">
-        <Link to="/viewKayaks" style={{ textDecoration: "none" }}>
-          <Button
-            className="btns"
-            buttonStyle="btn--primary"
-            buttonSize="btn--large"
-          >
-            View Our Kayaks
-          </Button>
-        </Link>
-      </div>
-    </div>
+
+</div>
   )
 }
