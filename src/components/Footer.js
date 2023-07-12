@@ -59,7 +59,7 @@ export const Footer = () => {
                 href="https://www.facebook.com/torontobeachkayak.ca/"
                 class="fa fa-facebook"
               ></a>
-              <a href="#" class="fa fa-twitter"></a>
+              {/* <a href="#" class="fa fa-twitter"></a> */}
             </div>
           </div>
         </div>
