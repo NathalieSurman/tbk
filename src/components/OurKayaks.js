@@ -25,7 +25,7 @@ export const OurKayaks = () => {
   </li>
   <li class="cards__itemka">
     <div class="cardka">
-      <div class="card__image card__image--woman"></div>
+      <div class="card__image card__image--small"></div>
       <div class="card__contentka">
         <div class="card__titleka">Single Kayak - Small</div>
         <p class="card__textka"> Our Canadian-made very stable kayak with a very large cockpit

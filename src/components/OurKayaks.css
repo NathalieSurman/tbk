@@ -72,8 +72,8 @@
   }
   
   
-  .card__image--woman {
-    background-image: url(/public/images/iqaluit_cropped.jpg);
+  .card__image--small {
+    background-image: url(/public/images/IMG_2703.jpg);
   }
   
   .card__image--kid {
@@ -81,7 +81,8 @@
   }
   
   .card__image--kaya {
-    background-image: url(/public/images/IMG_2703.jpg);
+    background-image: url(/public/images/iqaluit_cropped.jpg);
+
   }
   
   .card__titleka {
