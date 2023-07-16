@@ -35,15 +35,15 @@ export const Footer = () => {
           <h1 className="footer-tit">Our Partnerships</h1>
           <ul className="footer-ul">
             <li className="footer-li">
-              <a href="https://clearwaterdesign.shop/">ClearWater</a>
+              <a href="https://clearwaterdesign.shop/" target="_blank" rel="noopener noreferrer">ClearWater</a>
             </li>
             <li className="footer-li">
-              <a href="https://www.peekpro.com/https://www.peekpro.com/">
+              <a href="https://www.peekpro.com" target="_blank" rel="noopener noreferrer">
                 PeekPro
               </a>
             </li>
             <li className="footer-li">
-              <a href="https://www.wsuptoronto.ca/">WSUP</a>
+              <a href="https://www.wsuptoronto.ca/"  target="_blank" rel="noopener noreferrer">WSUP</a>
             </li>
           </ul>
         </div>
@@ -53,18 +53,19 @@ export const Footer = () => {
             <div class="logobox">
               <a
                 href="https://www.instagram.com/torontobeachkayak/"
-                class="fa fa-instagram"
-              ></a>
+                class="fa fa-instagram"  target="_blank" rel="noopener noreferrer"
+              > </a>
               <a
                 href="https://www.facebook.com/torontobeachkayak.ca/"
-                class="fa fa-facebook"
-              ></a>
+                class="fa fa-facebook"  target="_blank" rel="noopener noreferrer"
+              > </a>
+              
               {/* <a href="#" class="fa fa-twitter"></a> */}
             </div>
           </div>
         </div>
         <div class="footer-image-logo" data-aos="fade-up">
-          <img src="./images/tbk-logo.png" className="footer-img" />
+          <img src="./images/tbk-logo-thin.png" alt="toronto beach kayak logo" className="footer-img" />
         </div>
       </div>
 

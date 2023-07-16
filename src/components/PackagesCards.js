@@ -22,7 +22,7 @@ export const PackagesCards = () => {
       <div class="card__image card__image--dog"></div>
       <div class="card__contentpac">
         <div class="card__titlepac">Kayak Rentals</div>
-        <p class="card__textpac">Group discount of 10% when you rent 5 or more kayaks - use
+        <p class="card__textpac">Group discount of 15% for groups of 10 paddlers or more - use
             Promo Code Summer2022 at check out! All first time-renters
             will receive 10 minute on-land orientation and paddling
             refresher before heading out on the water. <a href="https://book.peek.com/s/216805e5-bad2-47ed-be72-432a10ce33c4/eLE83" target="_blank" rel="noopener noreferrer">Click Book Now</a> to make your kayak rental reservation.</p>

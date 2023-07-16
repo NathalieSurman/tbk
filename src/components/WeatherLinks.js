@@ -11,7 +11,7 @@ export const WeatherLinks = () => {
       <div className="card__image card__image--fence"></div>
       <div className="card__content">
         <div className="card__title">Weather & Weather Guarantee</div>
-        <p className="card__text"> Water & air temperature, wind strength & direction, and wave height 
+        <p className="card__text"> Water & air temperature, wind strength & direction, and wave height
 		all play a big role in the safety and enjoyment of being on the water. </p>
 		<h4 className='wlq-subtitle'>Our weather guarantee: </h4>
 		<p className="card__text">
