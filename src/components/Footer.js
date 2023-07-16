@@ -65,7 +65,7 @@ export const Footer = () => {
           </div>
         </div>
         <div class="footer-image-logo" data-aos="fade-up">
-          <img src="./images/tbk-logo-thin.png" alt="toronto beach kayak logo" className="footer-img" />
+          <img src="./images/tbk-logo-wb.png" alt="toronto beach kayak logo" className="footer-img" />
         </div>
       </div>
 
