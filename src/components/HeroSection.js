@@ -10,7 +10,7 @@ export const HeroSection = ({ prop }) => {
     <div className="hero-container">
       <video src="/videos/video-3.mp4" autoPlay loop muted />
       <h1>Kayak Rentals & Lessons for the Whole Family!</h1>
-      <p>Open until the end of September for the 2023 Season!</p>
+      {/* <p>Open until the end of September for the 2023 Season!</p> */}
       <p>What are you waiting for?</p>
       <div className="hero-btns">
         <a href="https://waiver.smartwaiver.com/w/xwjgo9su7mblejz7g9uo2w/web/" target="_blank" rel="noopener noreferrer">
